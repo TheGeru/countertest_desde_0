@@ -145,9 +145,7 @@ class _DatosState extends State<Datos> {
                 icon: const Icon(Icons.remove_red_eye_outlined),
                 onPressed: () => {
                   setState(() {
-                    showPassword == true
-                        ? showPassword = true
-                        : showPassword = false;
+                    showPassword == false ? showPassword = true: showPassword = false;
                   }),
                 },
               ),
@@ -181,9 +179,7 @@ class _RememberState extends State<Remember> {
         Checkbox(
             value: ischecked,
             onChanged: (value) => {
-                  setState(() => ischecked == false
-                      ? ischecked = true
-                      : ischecked = false),
+                  setState(() => ischecked == false ? ischecked = true : ischecked = false),
                 }),
         const Text(
           'Recuerdame',
