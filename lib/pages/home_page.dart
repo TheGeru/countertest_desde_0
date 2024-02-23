@@ -41,12 +41,12 @@ class HomePageState extends State<HomePage> {
             onPressed: _sumar,
             child: const Icon(Icons.add),
           ),
-          SizedBox(width: 10),
+          const SizedBox(width: 10),
           FloatingActionButton(
             onPressed: _reiniciar,
             child: const Icon(Icons.refresh),
           ),
-          SizedBox(width: 10),
+          const SizedBox(width: 10),
           FloatingActionButton(
             onPressed: _restar,
             child: const Icon(Icons.remove),
