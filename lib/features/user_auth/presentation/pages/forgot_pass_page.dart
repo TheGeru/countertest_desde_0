@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class ForgotPassword extends StatelessWidget {
-  const ForgotPassword({Key? key}) : super(key: key);
+  const ForgotPassword({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -53,7 +53,7 @@ class ForgotPassword extends StatelessWidget {
 }
 
 class BotonEnviar extends StatelessWidget {
-  const BotonEnviar({Key? key}) : super(key: key);
+  const BotonEnviar({super.key});
 
   @override
   Widget build(BuildContext context) {
